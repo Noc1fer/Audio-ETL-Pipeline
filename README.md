@@ -47,3 +47,8 @@ A stateless GPU pipeline executed in Google Colab that pulls raw data, processes
   * Neural Voice Activity Detection isolating distinct human speech from <20-second audio gaps.
   * FFmpeg concatenation rebuilding optimized `.m4a` files.
   * Dynamic sub-20-minute chunking to prevent memory-out-of-bounds errors on human annotator dashboards.
+
+## Core Technologies
+* **Machine Learning:** PyTorch, Pyannote.audio (Speaker Diarization / VAD)
+* **Data Engineering:** Python, yt-dlp, FFmpeg, NumPy
+* **Infrastructure:** Dropbox API, Rclone, Google Colab (T4 GPU Compute)
